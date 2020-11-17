@@ -1,0 +1,25 @@
+{
+  "name": "sisvan",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node src/bin/www",
+    "dev": "nodemon src/bin/www"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^4.3.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "is-odd": "^3.0.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
